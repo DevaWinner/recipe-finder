@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - Recipe Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">Recipe Finder</a>
+        <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="icon-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="about">
+      <div class="container">
+        <h1>About Recipe Finder</h1>
+        <p>
+          Recipe Finder is your go-to platform for discovering new and exciting recipes from around the globe.
+          Our mission is to inspire culinary exploration and bring diverse cuisines into your kitchen.
+        </p>
+        <h2>Contact Us</h2>
+        <form action="form-action.html" method="GET" id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Recipe Finder</p>
+      <a href="attributions.html">Attributions</a>
+    </div>
+  </footer>
+</body>
+</html>
